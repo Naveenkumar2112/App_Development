@@ -1,0 +1,107 @@
+/* GroceryList.css */
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the main grocery list container */
+  .grocery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style for individual grocery item containers */
+  .grocery-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 280px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .grocery-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Style for grocery item images */
+  .grocery-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  /* Style for grocery item details container */
+  .grocery-details {
+    padding: 15px;
+  }
+  
+  /* Style for grocery item name */
+  .grocery-name {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* Style for grocery item description */
+  .grocery-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Style for grocery item price */
+  .grocery-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Style for add to cart button */
+  .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for category headers */
+  .category-header {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  /* Style for category containers */
+  .category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  /* Style for category list at the bottom */
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
